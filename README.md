@@ -1,6 +1,6 @@
 # NeuralNetworkXOR
 Trains a three layer, feed forward, fully connected artificial neural network to replicate an XOR gate.
-he algorithm used to minimise the error was the Metropolis algorithm. 
+The Metropolis Algorithm is used to optimise the network by minising the error. 
 This uses a Markov chain which starts with a random configuration with a certain energy. 
 A small change is then proposed to the configuration, and the energy of this is compared with the original. 
 If the change results in a lower energy configuration then the change is accepted, otherwise the change is accepted 
